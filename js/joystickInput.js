@@ -1,6 +1,6 @@
 let serial;
 
-class Input {
+class JoystickInput {
   constructor() {
     this.deadzone = {
       minX: -5,

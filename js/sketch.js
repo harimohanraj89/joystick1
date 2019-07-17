@@ -15,7 +15,8 @@ function setup() {
   noStroke();
   rectMode(CENTER);
 
-  input = new Input();
+  let joystickInput = new JoystickInput();
+  let keyboardInput = new KeyboardInput();
   let gameInterface = new Interface();
   let mobSpawner = new MobSpawner();
   GAME.player = new Player(250, 250);

@@ -17,7 +17,6 @@ class MobSpawner {
   }
 
   tick() {
-    console.log(this.timer);
     this.timer += this.tickValue;
 
     if (this.timer >= this.interval) {
